@@ -1,0 +1,356 @@
+body{
+    margin:0;
+    width: 100%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 250);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Todos */
+
+/* Conatiner */
+
+.container{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+    color:white;
+    border-radius:10px;
+    width: 70%;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    margin:20px;
+    padding: 20px;;
+    align-items: center;
+    justify-content: space-between;
+    width:60%;
+    height:70px;
+    border-radius:10px;
+    color:white;
+    background-color: #1e293b;
+}
+
+.começar{
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(165, 101, 224);
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.header .menu{
+    display: flex;
+    gap:20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+
+.title span{
+    color: rgb(165, 101, 224);
+}
+
+/* Footer */
+
+.footer{
+    display:flex;
+    width: 95.5%;
+    justify-content: space-between;
+    background-color: rgb(43, 40, 46);
+    color: white;
+    margin:20px;
+    margin-bottom:0px;
+    padding: 0px 20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.license{
+    font-size:small;
+    color:rgb(207, 201, 201);
+}
+
+.links{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links p{
+    margin:1px;
+}
+
+.links a{
+    color: rgb(207, 201, 201);
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-title p{
+    margin:0px;
+}
+
+/* Home */
+
+.select{
+    border-bottom: 1.5px solid white;
+}
+
+.CTA{
+    color:white;
+    background-color: #1e293b;
+    padding:20px;
+    border-radius: 10px;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+}
+
+.CTA h1{
+    margin:5px;
+}
+
+.CTA p{
+    font-weight:bold;
+    color:#94a3b8;
+}
+
+.CTA button{
+    padding:10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #3b82f6;
+    font-weight: bold;
+    cursor:pointer;
+    width: 200px;
+    font-size: large;
+}
+
+.cards-home{
+    display:flex;
+    justify-content: space-between;
+    width: 560px;
+}
+
+.cards{
+    padding:20px;
+    background-color: #1e293b;
+    border-radius:10px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+
+.cards span{
+    color:#94a3b8;
+}
+
+.cards i{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* About */
+
+.call{
+    display: flex;
+    flex-direction: row;
+    gap:200px;
+    padding: 20px;
+    margin-top:10px;
+}
+
+.call h2{
+    margin: 1px;
+}
+
+.call .site{
+    color:rgb(165, 101, 224);
+}
+
+/* grifar o "incriveis" */
+.call .destaque{
+    margin:0px;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* mudar texto "html+css" */
+.call .negrito{
+    font-weight: bold;
+}
+
+.call .começar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.começar svg{
+    transition: transform 0.3;
+}
+
+.começar:hover svg {
+    transform: translateX(10px); /* seta se move ao passar o mouse */
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .title-service{
+    font-weight: bold;
+}
+
+.services .Serviços{
+    color:rgb(165, 101, 224);
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+}
+
+
+.card-services{
+    display: flex;
+    gap:20px
+}
+
+.card-services .card{
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.card i{
+    font-size:40px;
+}
+
+.card p{
+    font-size:large;
+    margin:0px;
+}
+
+.card button{
+    padding:10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(165, 101, 224);
+    font-weight: bold;
+    cursor:pointer;
+}
+
+/* Contact */
+
+.contact-me{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: #94a3b8;
+    margin-top:0px;
+}
+
+.contact-me h2{
+    margin-bottom: 5px;
+}
+
+.contact-form{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-form img{
+    height: 300px;
+    width: 300px;
+}
+
+.form{
+    width: 30%;
+    gap:20px;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    background-color: #1e293b;
+    border-radius:10px;
+}
+
+
+
+.form input{
+    height:20px;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #273449;
+    color:#ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.form input:focus{
+    outline:none;
+    border: 2px solid #94a3b8;
+  
+}
+
+.form .mensage{
+    height: 80px;
+}
+
+.mensage-button{
+    padding:10px;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    color:#fff;
+    background-color: #3b82f6;
+}
