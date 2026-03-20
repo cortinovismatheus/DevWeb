@@ -27,7 +27,7 @@ body{
 
 /* Header */
 
-.header{
+header{
     display: flex;
     margin:20px;
     padding: 20px;;
@@ -52,7 +52,7 @@ body{
     cursor:pointer;
 }
 
-.header .menu{
+header .menu{
     display: flex;
     gap:20px;
 }
@@ -68,7 +68,7 @@ body{
 
 /* Footer */
 
-.footer{
+footer{
     display:flex;
     width: 95.5%;
     justify-content: space-between;
